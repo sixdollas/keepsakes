@@ -5,7 +5,8 @@ struct ScapbookPageView: View {
     @State private var journalText = ""
     @State private var selectedImage: UIImage? = nil
     @State private var selectedItem: PhotosPickerItem? = nil
-    @State private var selectedImage: UIImage? = nil 
+    @State private var selectedImage: UIImage? = nil
+    @State private var showCamera = false 
 
     var body: some View {
         ScrollView {
@@ -22,6 +23,18 @@ struct ScapbookPageView: View {
                         .resizable()
                         .scaledToFit()
                         .cornerRadius(12)
+                } else {
+                    Rectangle()
+                        .fill(Color.gray.opacity(0.2))
+                        .frame(height: 200)
+                        .overlay(
+                            Text("Tap to take a photo")
+                                .foregroundColor(.gray)
+                        )
+                        .onTapGesture {
+                            showCamera = true
+                        }
+                }
                 } else {
                     PhotosPicker(
                         selection: $selectedItem,
@@ -90,5 +103,10 @@ struct ScapbookPageView: View {
             .padding()
         }
         .navigationTitle("Scrapbook")
+        .sheet(isPresented: $showCamera) {
+            CameraView {image in
+                SelectedImage = image
+            }
+        }
     }
 }
