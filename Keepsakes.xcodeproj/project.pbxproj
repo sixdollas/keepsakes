@@ -1,0 +1,225 @@
+// !$*UTF8*$!
+{
+  archiveVersion = 1;
+  classes = {};
+  objectVersion = 56;
+  objects = {
+
+/* Begin PBXFileReference section */
+    1A1A1A1A1A1A1A1A1A1A1A1A /* Info.plist */ = {
+      isa = PBXFileReference;
+      lastKnownFileType = text.plist.xml;
+      path = Info.plist;
+      sourceTree = "<group>";
+    };
+    2B2B2B2B2B2B2B2B2B2B2B2B /* Sources */ = {
+      isa = PBXFileReference;
+      lastKnownFileType = folder;
+      path = Sources;
+      sourceTree = "<group>";
+    };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+    3C3C3C3C3C3C3C3C3C3C3C3C = {
+      isa = PBXGroup;
+      children = (
+        2B2B2B2B2B2B2B2B2B2B2B2B /* Sources */,
+        1A1A1A1A1A1A1A1A1A1A1A1A /* Info.plist */,
+      );
+      sourceTree = "<group>";
+    };
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+    4D4D4D4D4D4D4D4D4D4D4D4D /* Project object */ = {
+      isa = PBXProject;
+      attributes = {
+        LastUpgradeCheck = 1640;
+        TargetAttributes = {
+          5E5E5E5E5E5E5E5E5E5E5E5E = {
+            CreatedOnToolsVersion = 16.4;
+          };
+        };
+      };
+      buildConfigurationList = 6F6F6F6F6F6F6F6F6F6F6F6F /* Build configuration list for PBXProject "Keepsakes" */;
+      compatibilityVersion = "Xcode 14.0";
+      developmentRegion = en;
+      hasScannedForEncodings = 0;
+      knownRegions = (
+        en,
+      );
+      mainGroup = 3C3C3C3C3C3C3C3C3C3C3C3C;
+      productRefGroup = 7A7A7A7A7A7A7A7A7A7A7A7A /* Products */;
+      projectDirPath = "";
+      projectRoot = "";
+      targets = (
+        5E5E5E5E5E5E5E5E5E5E5E5E /* Keepsakes */,
+      );
+    };
+/* End PBXProject section */
+
+/* Begin PBXGroup section (Products) */
+    7A7A7A7A7A7A7A7A7A7A7A7A /* Products */ = {
+      isa = PBXGroup;
+      children = (
+        8B8B8B8B8B8B8B8B8B8B8B8B /* Keepsakes.app */,
+      );
+      name = Products;
+      sourceTree = "<group>";
+    };
+/* End PBXGroup section */
+
+/* Begin PBXFileReference section (Product) */
+    8B8B8B8B8B8B8B8B8B8B8B8B /* Keepsakes.app */ = {
+      isa = PBXFileReference;
+      explicitFileType = wrapper.application;
+      includeInIndex = 0;
+      path = Keepsakes.app;
+      sourceTree = BUILT_PRODUCTS_DIR;
+    };
+/* End PBXFileReference section (Product) */
+
+/* Begin PBXSourcesBuildPhase section */
+    9C9C9C9C9C9C9C9C9C9C9C9C /* Sources */ = {
+      isa = PBXSourcesBuildPhase;
+      buildActionMask = 2147483647;
+      files = (
+        // We let Xcode treat the Sources folder as a source root; Swift will find all .swift files.
+      );
+      runOnlyForDeploymentPostprocessing = 0;
+    };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXFrameworksBuildPhase section */
+    ADADADADADADADADADADADAD /* Frameworks */ = {
+      isa = PBXFrameworksBuildPhase;
+      buildActionMask = 2147483647;
+      files = (
+      );
+      runOnlyForDeploymentPostprocessing = 0;
+    };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXResourcesBuildPhase section */
+    BEBEBEBEBEBEBEBEBEBEBEBE /* Resources */ = {
+      isa = PBXResourcesBuildPhase;
+      buildActionMask = 2147483647;
+      files = (
+      );
+      runOnlyForDeploymentPostprocessing = 0;
+    };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+    5E5E5E5E5E5E5E5E5E5E5E5E /* Keepsakes */ = {
+      isa = PBXNativeTarget;
+      buildConfigurationList = CFCFCFCFCFCFCFCFCFCFCFCF /* Build configuration list for PBXNativeTarget "Keepsakes" */;
+      buildPhases = (
+        9C9C9C9C9C9C9C9C9C9C9C9C /* Sources */,
+        ADADADADADADADADADADADAD /* Frameworks */,
+        BEBEBEBEBEBEBEBEBEBEBEBE /* Resources */,
+      );
+      buildRules = (
+      );
+      dependencies = (
+      );
+      name = Keepsakes;
+      productName = Keepsakes;
+      productReference = 8B8B8B8B8B8B8B8B8B8B8B8B /* Keepsakes.app */;
+      productType = "com.apple.product-type.application";
+    };
+/* End PBXNativeTarget section */
+
+/* Begin XCBuildConfiguration section (Project) */
+    D0D0D0D0D0D0D0D0D0D0D0D0 /* Debug */ = {
+      isa = XCBuildConfiguration;
+      buildSettings = {
+        IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+        SDKROOT = iphoneos;
+        TARGETED_DEVICE_FAMILY = "1,2";
+        SUPPORTS_MACCATALYST = NO;
+        SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+      };
+      name = Debug;
+    };
+    D1D1D1D1D1D1D1D1D1D1D1D1 /* Release */ = {
+      isa = XCBuildConfiguration;
+      buildSettings = {
+        IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+        SDKROOT = iphoneos;
+        TARGETED_DEVICE_FAMILY = "1,2";
+        SUPPORTS_MACCATALYST = NO;
+        SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+      };
+      name = Release;
+    };
+/* End XCBuildConfiguration section (Project) */
+
+/* Begin XCBuildConfiguration section (Target) */
+    D2D2D2D2D2D2D2D2D2D2D2D2 /* Debug */ = {
+      isa = XCBuildConfiguration;
+      buildSettings = {
+        ASSETCATALOG_COMPILER_APPICON_NAME = "";
+        CODE_SIGN_STYLE = Automatic;
+        DEVELOPMENT_TEAM = "";
+        INFOPLIST_FILE = Info.plist;
+        LD_RUNPATH_SEARCH_PATHS = (
+          "$(inherited)",
+          "@executable_path/Frameworks",
+        );
+        PRODUCT_BUNDLE_IDENTIFIER = "com.sixdollas.keepsakes";
+        PRODUCT_NAME = "$(TARGET_NAME)";
+        SWIFT_VERSION = 5.0;
+        GENERATE_INFOPLIST_FILE = NO;
+        IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+        TARGETED_DEVICE_FAMILY = "1,2";
+      };
+      name = Debug;
+    };
+    D3D3D3D3D3D3D3D3D3D3D3D3 /* Release */ = {
+      isa = XCBuildConfiguration;
+      buildSettings = {
+        ASSETCATALOG_COMPILER_APPICON_NAME = "";
+        CODE_SIGN_STYLE = Automatic;
+        DEVELOPMENT_TEAM = "";
+        INFOPLIST_FILE = Info.plist;
+        LD_RUNPATH_SEARCH_PATHS = (
+          "$(inherited)",
+          "@executable_path/Frameworks",
+        );
+        PRODUCT_BUNDLE_IDENTIFIER = "com.sixdollas.keepsakes";
+        PRODUCT_NAME = "$(TARGET_NAME)";
+        SWIFT_VERSION = 5.0;
+        GENERATE_INFOPLIST_FILE = NO;
+        IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+        TARGETED_DEVICE_FAMILY = "1,2";
+      };
+      name = Release;
+    };
+/* End XCBuildConfiguration section (Target) */
+
+/* Begin XCConfigurationList section */
+    6F6F6F6F6F6F6F6F6F6F6F6F /* Build configuration list for PBXProject "Keepsakes" */ = {
+      isa = XCConfigurationList;
+      buildConfigurations = (
+        D0D0D0D0D0D0D0D0D0D0D0D0 /* Debug */,
+        D1D1D1D1D1D1D1D1D1D1D1D1 /* Release */,
+      );
+      defaultConfigurationIsVisible = 0;
+      defaultConfigurationName = Debug;
+    };
+    CFCFCFCFCFCFCFCFCFCFCFCF /* Build configuration list for PBXNativeTarget "Keepsakes" */ = {
+      isa = XCConfigurationList;
+      buildConfigurations = (
+        D2D2D2D2D2D2D2D2D2D2D2D2 /* Debug */,
+        D3D3D3D3D3D3D3D3D3D3D3D3 /* Release */,
+      );
+      defaultConfigurationIsVisible = 0;
+      defaultConfigurationName = Debug;
+    };
+/* End XCConfigurationList section */
+
+  };
+  rootObject = 4D4D4D4D4D4D4D4D4D4D4D4D /* Project object */;
+}
